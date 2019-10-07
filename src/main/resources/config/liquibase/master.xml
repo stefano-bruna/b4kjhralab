@@ -14,6 +14,9 @@
     <property name="uuidType" value="uuid" dbms="h2, mssql"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191007092441_added_entity_Patent.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20191007092442_added_entity_Client.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20191007092441_added_entity_constraints_Patent.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>
