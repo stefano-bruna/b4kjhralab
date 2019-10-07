@@ -2,8 +2,8 @@
 entity Patent {
 	id Long
     uid String
-    title String
-    abstract String
+    name String
+    description String
 }
 
 
