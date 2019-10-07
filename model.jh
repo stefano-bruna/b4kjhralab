@@ -1,0 +1,21 @@
+
+entity Patent {
+	id Long
+    uid String
+    name String
+    abstract String
+}
+
+
+entity Client {
+	id Long
+    uid String
+    firstName String
+    lastName String
+    fiscalCode String
+    vat String
+}
+	
+relationship OneToMany {
+	Client{patent} to Patent{client}
+}  
