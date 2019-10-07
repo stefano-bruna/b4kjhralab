@@ -1,0 +1,27 @@
+entity User {
+	id Long
+    uid String
+	firstName String
+    lastName String
+}
+
+entity Patent {
+	id Long
+    uid String
+}
+
+
+entity Client {
+	id Long
+    uid String
+    firstName String
+    lastName String
+}
+	
+relationship ManyToMany {
+	Client{patent(id)} to Patent{client(id)}
+}  
+
+relationship OneToMany {
+  User{patent} to Patent{creator}
+}
