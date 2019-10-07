@@ -1,0 +1,42 @@
+{
+    "name": "Client",
+    "fields": [
+        {
+            "fieldName": "uid",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "firstName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "fiscalCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "vat",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "patent",
+            "otherEntityRelationshipName": "client",
+            "relationshipName": "patent"
+        }
+    ],
+    "changelogDate": "20191007100438",
+    "entityTableName": "client",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
