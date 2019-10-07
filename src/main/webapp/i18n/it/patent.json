@@ -1,0 +1,25 @@
+{
+  "b4KjhralabApp": {
+    "patent": {
+      "home": {
+        "title": "Patents",
+        "createLabel": "Genera un nuovo Patent",
+        "createOrEditLabel": "Genera o modifica un Patent",
+        "notFound": "No Patents found"
+      },
+      "created": "&Egrave; stato generato un nuovo Patent con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Patent identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Patent con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Patent {{ id }}?"
+      },
+      "detail": {
+        "title": "Patent"
+      },
+      "uid": "Uid",
+      "name": "Name",
+      "description": "Description",
+      "client": "Client"
+    }
+  }
+}
